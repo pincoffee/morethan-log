@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "Pin Coffee Club",
     image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Bid Button Clicker",
+    role: "Professional Bid Button Clicker",
     bio: "Let's bid coffee together!",
     email: "info@pincoffee.club",
     linkedin: "",
