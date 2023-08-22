@@ -10,12 +10,12 @@ const CONFIG = {
     github: "",
     instagram: "",
   },
-  // projects: [
-  //   {
-  //     name: `morethan-log`,
-  //     href: "https://github.com/morethanmin/morethan-log",
-  //   },
-  // ],
+  projects: [
+    {
+      name: `morethan-log`,
+      href: "https://github.com/morethanmin/morethan-log",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "Pin Coffee Club",
@@ -46,14 +46,14 @@ const CONFIG = {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
-  // utterances: {
-  //   enable: false,
-  //   config: {
-  //     repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
-  //     "issue-term": "og:title",
-  //     label: "💬 Utterances",
-  //   },
-  // },
+  utterances: {
+    enable: true,
+    config: {
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
+      "issue-term": "og:title",
+      label: "💬 Utterances",
+    },
+  },
   cusdis: {
     enable: false,
     config: {
