@@ -27,7 +27,8 @@ const useScheme = (): [Scheme, SetScheme] => {
     if (!window) return
 
     const scheme = getCookie("scheme")
-    setScheme(scheme === "light" ? "light" : "dark")
+    // setScheme(scheme === "light" ? "light" : "dark")
+    setScheme("light")
   }, [])
 
   return [scheme, setScheme]
